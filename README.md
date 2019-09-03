@@ -45,35 +45,3 @@ axios.interceptors.response.use(
     return Promise.reject(error.response.data)
   });
 ```
-## 启动
-```
-后端支撑
-  启动lenosp 开源地址：https://gitee.com/bweird/lenosp
-  启动lenosp
-ui启动
-修改 /config/index.js 映射端口配置
-proxyTable: {
-      '/api': {
-        target: 'http://localhost:8089',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api' : ''
-      }
-    }
-  },
-  
-npm install
-npm run dev
-```
-
- <table>
-      <tr>
-          <td><img src="http://chuantu.xyz/t6/702/1557929094x1033347913.png"/></td>
-      <tr>
-      <tr>
-          <td><img src="http://chuantu.xyz/t6/702/1557929147x1709417317.png"/></td>
-      </tr>
-      <tr>
-          <td><img src="http://chuantu.xyz/t6/702/1557929117x1709417317.png"/></td>
-      </tr>
-   </table>
