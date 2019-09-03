@@ -1,6 +1,6 @@
-# len-blog
+# wzzlang-blog
 
-> lenos  博客 vue ui
+> wzzlang  博客 vue ui
 > 采用 vue iview ui
 
 ## Build 项目
